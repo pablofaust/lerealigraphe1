@@ -190,6 +190,7 @@ h5 {
 	vertical-align: top;
 	color: rgba(0, 0, 0, 0.7);
 	text-align: left;
+	text-transform: uppercase;
 }
 
 .home-credits {
@@ -205,10 +206,21 @@ h5 {
 	letter-spacing: 3px;
 }
 
-.home-credits a, .home-contact a {
+.home-contact a {
 	text-decoration: none;
 }
 
-.home-credits p:hover, .home-contact p:hover {
+.home-contact p:hover {
 	color: white;
+}
+
+/* CONTACT */
+
+.contact {
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
