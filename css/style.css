@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700|Open+Sans:400,300,600,700);
+
+/* GENERAL */
+
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	text-transform: uppercase;
+	font-size: 22px;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+
+h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Libre Baskerville', Times, serif; 
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+h3, h4 {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+h5 {
+	margin:0;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+/* HOME */
+
+.home-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	margin-top: -5%;
+}
+
+.background-img {
+	height: 100%;
+	width: 100%;
+}
+
+.background-img>div {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.home-welcome {
+	position: relative;
+	padding: 0;
+	width: 290px;
+	height: 75%;
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	margin-top: 5%;
+}
+
+.logo-img {
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+.logo-img>div {
+	height: 200px;
+	width: 200px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.logo-text {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.divider {
+	width: 230px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.home-punchline {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.home-welcome form input {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 230px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.home-welcome form input:focus {
+	outline: none;
+	color: rgba(192, 44, 39, 1);
+}
+
+.agent-id, .agent-password {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+	color: rgba(192, 44, 39, 0.5);
+}
+
+.agent-id:hover, .agent-password:hover {
+	color: rgba(192, 44, 39, 1);
+}
+
+.home-access {
+	width: 230px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+.home-access:hover {
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+}
+
+.home-access input{
+	margin-top: 15px;
+}
+
+
+.home-footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: auto;
+}
+
+.home-contact {
+	display: inline-block;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: left;
+}
+
+.home-credits {
+	display: inline-block;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.home-credits p, .home-contact p {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+	letter-spacing: 3px;
+}
+
+.home-credits a, .home-contact a {
+	text-decoration: none;
+}
+
+.home-credits p:hover, .home-contact p:hover {
+	color: white;
+}
