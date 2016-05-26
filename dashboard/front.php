@@ -1,17 +1,21 @@
 <div class="container dashboard">
 	<div class="row clearfix">
 		
-		<div class="col-sm-4 puzzle puzzle-1">
+		<div class="col-sm-6 puzzle puzzle-1">
 
-			<div class="puzzle-background" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-1.png')"></div>
+			<div class="puzzle-background hidden-sm" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-1.png')"></div>
+
+			<div class="puzzle-background hidden-xs" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-1-tablet.png')"></div>
 
 			<div class="logo" style="background-image: url('<?php echo $url ?>dashboard/img/logo.png')"	></div>
 
 		</div>
 
-		<div class="col-sm-4 puzzle puzzle-2">
+		<div class="col-sm-6 puzzle puzzle-2">
 
-			<div class="puzzle-background" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-2.png')"></div>
+			<div class="puzzle-background hidden-sm" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-2.png')"></div>
+
+			<div class="puzzle-background hidden-xs" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-2-tablet.png')"></div>
 
 			<div class="bouton">
 				<div class="bouton-valider">
@@ -31,9 +35,11 @@
 
 		</div>
 
-		<div class="col-sm-4 puzzle puzzle-3">
+		<div class="col-sm-6 puzzle puzzle-3">
 			
-			<div class="puzzle-background" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-3.png')"></div>
+			<div class="puzzle-background hidden-sm" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-3.png')"></div>
+
+			<div class="puzzle-background hidden-xs" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-3-tablet.png')"></div>
 
 			<div class="bouton bouton-chrono">
 				<p>23:14:06</p>
@@ -45,9 +51,11 @@
 
 		</div>
 
-		<div class="col-sm-4 puzzle puzzle-4">
+		<div class="col-sm-6 puzzle puzzle-4">
 			
-			<div class="puzzle-background" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-4.png')"></div>
+			<div class="puzzle-background hidden-sm" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-4.png')"></div>
+
+			<div class="puzzle-background hidden-xs" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-4-tablet.png')"></div>
 
 			<div class="bouton bouton-bienvenue">
 				<p>Bienvenue, <strong>Thibaut</strong>.</p>
@@ -62,9 +70,11 @@
 
 		</div>
 
-		<div class="col-sm-4 puzzle puzzle-5">
+		<div class="col-sm-6 puzzle puzzle-5">
 			
-			<div class="puzzle-background" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-5.png')"></div>
+			<div class="puzzle-background hidden-sm" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-5.png')"></div>
+
+			<div class="puzzle-background hidden-xs" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-5-tablet.png')"></div>
 
 			<div class="bouton bouton-carte">
 				<div class="carte" style="background-image: url('<?php echo $url ?>dashboard/img/carte.png')"></div>
@@ -77,9 +87,11 @@
 
 		</div>
 
-		<div class="col-sm-4 puzzle puzzle-6">
+		<div class="col-sm-6 puzzle puzzle-6">
 			
-			<div class="puzzle-background" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-6.png')"></div>
+			<div class="puzzle-background hidden-sm" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-6.png')"></div>
+
+			<div class="puzzle-background hidden-xs" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-6-tablet.png')"></div>
 
 			<div class="bouton bouton-report">
 				<p>Et si j'ai besoin de reporter ?</p>

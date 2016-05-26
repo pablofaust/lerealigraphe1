@@ -215,8 +215,6 @@ h5 {
 	margin-bottom: 30px;
 }
 
-/* TABLEAU DE BORD */	
-
 .contact-background {
 	position: fixed;
 	width: 100%;
@@ -235,6 +233,8 @@ h5 {
 	background: no-repeat center center;
 	background-size: cover;
 }
+
+/* TABLEAU DE BORD */	
 
 .dashboard {
 	position: absolute;
@@ -443,7 +443,7 @@ h5 {
 	font-size: 14px;
 	margin-top: 10px;
 	font-weight: 700;
-	margin-right: 30px;
+	margin-right: 35px;
 }
 
 .puzzle-5 .bouton-statut-partenaire p strong {
@@ -470,4 +470,92 @@ h5 {
 	color: rgba(0, 0, 0, 0.7);
 	text-align: center;
 	margin-top: 15px;
+}
+
+/* RESPONSIVE : TABLETTE */
+
+@media (min-width: 768px) {
+
+.dashboard .row, .dashboard .clearfix {
+	width: 600px;
+}
+
+.dashboard .puzzle {
+	height: 300px;
+}
+
+.puzzle-1 .logo {
+	height: 175px;
+	width: 175px;
+}
+
+.puzzle-2 .bouton .bouton-valider {
+	height: 112.5px;
+	width: 225px;
+	margin-top: 37.5px;
+}
+
+.puzzle-2 .bouton-solid {
+	padding: 10px 15px 0px 15px;
+}
+
+.puzzle-2 .bouton .bouton-indices {
+	height: 112.5px;
+	width: 225px;
+	margin-top: 150px;
+	margin-left: 75px;
+}
+
+.puzzle-3 .bouton-chrono {
+	height: 150px;
+	margin-top: 75px;
+	padding: 50px;
+}
+
+.puzzle-3 .bouton-id {
+	margin-top: 225px;
+	height: 75px;
+	width: 150px;
+	padding: 25px;
+}
+
+.puzzle-4 .bouton-bienvenue {
+	height: 75px;
+	padding: 25px;
+}
+
+.puzzle-4 .bouton-bienvenue p {
+	text-align: left;
+}
+
+.puzzle-4 .bouton-mtsptk {
+	margin-top: 75px;
+	height: 75px;
+}
+
+.puzzle-4 .bouton-mtsptk .texte {
+	margin-top: 15px;
+}
+
+.puzzle-4 .bouton-mtsptk .jauge {
+	margin-left: 60px;
+}
+
+.puzzle-5 .bouton-carte {
+	height: 225px;
+	width: 225px;
+	padding: 20px;
+}
+
+.puzzle-5 .bouton-statut-partenaire {
+	padding: 20px;
+}
+
+.puzzle-5 .bouton-statut-partenaire p {
+	margin-right: 62.5px;
+}
+
+.puzzle-6 .bouton-report {
+	padding: 15px;
+}
 }
