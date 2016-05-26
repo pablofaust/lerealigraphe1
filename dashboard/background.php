@@ -1,8 +1,8 @@
-<div class="container-fluid contact-background">
+<div class="container-fluid dashboard-background">
 
-	<div class="contact-background-img">
+	<div class="dashboard-background-img">
 
-		<div style="background-image: url('<?php echo $url ?>contact/img/background.jpg')">
+		<div style="background-image: url('<?php echo $url ?>dashboard/img/background.jpg')">
 		</div>
 
 	</div>
