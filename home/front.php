@@ -4,15 +4,11 @@
 		<div class="logo-block" style="background-image: url('<?php echo $url ?>home/img/logo.png')"></div>
 	</div>
 
-<!-- 	<div class="logo-text">
-		<h1>Agence MTSPTK</h1>
-	</div> -->
-
 	<div class="divider">
 	</div>
 
 	<div class="home-punchline">
-		<h2>Votre mission est sur le point de commencer...</h2>
+		<h1>Votre mission est sur le point de commencer...</h1>
 	</div>
 
 	<div class="divider">
